@@ -289,7 +289,8 @@ button:focus {
  * Header Top 
  * ---------------*/
 .header-top {
-  background: #ffffff;
+  /* background: #ffffff; */
+  background: #29282d;
   padding: 30px;
 }
 

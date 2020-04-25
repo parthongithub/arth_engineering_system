@@ -73,8 +73,20 @@
     <![endif]-->
   </head>
 
-  <body>
-    <div class="wrapper" id="wrapper">
+  <body onload="displayLoader(3)">
+    <div class="loader" id="loader" style="text-align: center; height: 666px;">
+      <i
+        class="fa fa-cog fa-spin"
+        style="font-size: 50px; color: #f9c535; margin: 45vh 2% 0vh 0%;"
+      ></i>
+      <br />
+      <i
+        class="fa fa-cog fa-spin spin-reverse"
+        style="font-size: 50px; color: #f9c535; margin: -3vh 0% 5vh 2%"
+      ></i>
+      <p>ARTH ENGINEERING SYSTEM</p>
+    </div>
+    <div class="wrapper" id="wrapper" style="display: none;">
       <div class="offcanvas-pusher">
         <div class="content-wrapper">
           <div class="container">
@@ -86,18 +98,27 @@
                       <div class="col-md-7 col-xs-12 col-sm-3">
                         <div class="logo">
                           <a title="Arth Engineering System" href="index.html">
-                            <img
+                            <!-- <img
                               src="img/a_logo.png"
                               alt="Arth Engineering System"
                               style="margin-right: 10px;"
-                            />
+                            /> -->
+                            <i
+                              class="fa fa-cog fa-spin-cog"
+                              style="
+                                font-size: 50px;
+                                color: #f9c535;
+                                vertical-align: bottom;
+                                margin-right: 3%;
+                              "
+                            ></i>
                             <span
                               style="
-                                font-size: 25px;
+                                font-size: 36px;
                                 color: #f9c535;
                                 font-weight: bold;
                                 word-break: keep-all;
-                                vertical-align: middle;
+                                line-height: 1.3;
                               "
                               >Arth Engineering System
                               <p></p>
