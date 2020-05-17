@@ -671,6 +671,7 @@ offcanvas-menu
 }
 .service-caption {
   padding: 0px 0px 15px 30px;
+  width: 100%;
 }
 
 .service-left {
